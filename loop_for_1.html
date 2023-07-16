@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>loop_for_1</title>
+</head>
+<body>
+<p id="display"></p>
+</body>
+<script>
+  function for1() {
+    let text1 = "";
+    let i;
+    for (i=0;i<=5;i++) {
+      text1 += 'The number is ' + i + "<br>";
+      document.getElementById('display').innerHTML = text1;
+    }
+  }
+  for1()
+</script>
+</html>

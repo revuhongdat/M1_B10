@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>loop_for_2</title>
+</head>
+<body>
+<input id="input" placeholder="Enter the number">
+<button onclick="sum()">Calculate</button>
+<p id="output"></p>
+</body>
+<script>
+    function sum() {
+        let a = +document.getElementById('input').value;
+        let sum = 0;
+        for (let i=0;i<=a;i++) {
+            sum += i;
+        }
+        document.getElementById('output').innerHTML = 'Sum is ' + sum;
+    }
+</script>
+</html>
